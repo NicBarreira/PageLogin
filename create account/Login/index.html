@@ -27,15 +27,17 @@
             <div class="remember-forgot">
                 <label><input type="checkbox"> Lembre-me</label>
             </div>
-            <button type="submit">Login</button>
+
+             <button type="button" onclick="redirectToGoogle()">Login</button>
 
             <div class-="register-link">
-                <p>Ainda não tem uma conta? <a href="#"> Registre-se </a></p>
+                <a href="../index2.html">
+                <p>Ainda não tem uma conta? Registre-se</p>
+                    </a>
             </div>
              <span style="--i:1;"></span>
     <span style="--i:2;"></span>
-    <span style="--i:3;"></span>
-    </div>
+    <span style="--i:3;"></span></div>
   <div class="glowing">
     <span style="--i:1;"></span>
     <span style="--i:2;"></span>
@@ -44,6 +46,11 @@
         </form>
     </div>
 </div>
+<script>
+        function redirectToGoogle() {
+            window.location.href = "https://www.google.com";
+        }
+    </script>
 </body>
 </html>
 
